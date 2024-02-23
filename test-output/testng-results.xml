@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-23T22:05:01 IST" name="Suite" finished-at="2024-02-23T22:05:05 IST" duration-ms="4200">
+    <groups>
+    </groups>
+    <test started-at="2024-02-23T22:05:01 IST" name="Test" finished-at="2024-02-23T22:05:05 IST" duration-ms="4200">
+      <class name="insuranceCalculator_Motorcycle.EndToEndTests_motorcycle">
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:insuranceCalculator_Motorcycle.EndToEndTests_motorcycle@72c927f1]" started-at="2024-02-23T22:05:01 IST" name="setUpMethod" finished-at="2024-02-23T22:05:05 IST" duration-ms="3794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="insuranceCalculate_VolvoMotor(java.lang.Object)[pri:0, instance:insuranceCalculator_Motorcycle.EndToEndTests_motorcycle@72c927f1]" started-at="2024-02-23T22:05:05 IST" name="insuranceCalculate_VolvoMotor" data-provider="vehData" finished-at="2024-02-23T22:05:05 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Vehicle_List Price=23445, PricaValidation_Ultimate=2661, Product_startdate=01/05/1156, TC_Name=Verify insurance for honda, Vehicle_Fuel Type=petrol, Vehicle_Annual Mileage=55, TC_No=1, Vehilcle_PayLoad=555, SelectOption=, Insuranct_Hobby=trade, Vehilce_Date of Manufacture=32607, PriceValidation_Silver=711, Insurance_gender=Male, Insurant_occupation=jon, Vehicle_No of Seats_motorcycle=2, Insurant_LastName=Supekar, Product_OptionalProducts=56565, Vehicle_Enging Performance=666, Vehicle_No of Seats=2, Vehicle_Model=Motorcycle, Insurant_country=India, Vehicle_RightHandDrive=, Product_insuranceSum=5555, Product_damageinsurance=5656, Insurant_Zipcode=411456, Vehicle_CylinderCapacity=333, PriceValidation_Platinum=2661, Insurant_FirstName=Swapnil, Vehicle_total Weight=555, Insurant_birthdate=33727, Vehilce_Make=Honda, Insurance_ImageFilePath=, Pricevalidation_Gold=241}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insuranceCalculate_VolvoMotor -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:insuranceCalculator_Motorcycle.EndToEndTests_motorcycle@72c927f1]" started-at="2024-02-23T22:05:05 IST" name="tearDown" finished-at="2024-02-23T22:05:05 IST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- insuranceCalculator_Motorcycle.EndToEndTests_motorcycle -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
